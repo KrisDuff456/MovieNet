@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Movie Network - Sign-Up</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="respStyle.css">
+<script src="account.js"></script>
+
+</head>
+<body>
+<div id="heading">
+<div id="logo">
+<p>Movie Network</p>
+</div>
+ <div id ="nav">
+ <ul>
+    <li><a  href ="index.html">Home</a></li>
+    <li><a href ="films.html">Films</a></li>
+    <li><a href = "contact.html">Contact</a></li>
+	</ul>
+	  <div class="search-container">
+	    <input type="text" placeholder="Search.....">
+	    <button type="submit"><i class="fa fa-search"></i></button>
+	  </div>
+	</div>
+    <div id="nav-account">
+	<ul>
+	 <li class="active"><a href = "signup.html">Sign-Up</a></li>
+<button onclick="loginvisibility()" id="showLogin">Login</button>
+	</ul>
+  </div>
+ 
+ <div id="loginArea" class="login">
+   <form class ="loginContainer">
+   
+   <label for="emailAd">Email Address</label>
+   <input type="text" placeholder="Your Email Address" name="emailAd" required>
+   
+   <label for="psw">Password</label>
+   <input type="password" placeholder="Enter Your Password" name="psw" required>
+ 
+   <button onclick="" type="submit">Login</button>
+   <script src="login.js"></script>
+   
+   <div class="psw">Forgot <a href="#">Password?</a></span>
+   </div>
+   </form>
+</div>
+</div>
+
+ <div id="sign-up-main">
+ <div id="sign-form-container">
+ 
+<form action="active/account/newUser" method="POST">
+  <div id="sign-up-form">
+  <h2>Sign Up</h2>
+  <p>Personal Details (* Required)</p>
+  <hr>
+  <label id="first_name">* First Name</label>
+  <input type="text" name="first_name" placeholder="First Name" id="first_name" required>
+  <br>
+  <label id="last_name">* Last Name</label>
+  <input type="text" name="last_name" placeholder="Last Name" id="last_name" required>
+  <br> <br>
+  <label id="email">* Email</label>
+  <input id="email" name="email" type="Text" placeholder="Email Address" required>
+ <br><br>
+ <label id="dateOfBirth">* Date of Birth</label>
+ <input id="dateOfBirth" name="dateOfBirth" type="date">
+ <br><br>
+ <label id="password">* Password</label>
+ <input type="password" placeholder="Password" name="password" required>
+ <br>
+ <label id="password-check">* Confirm Password</label>
+ <input type="password" placeholder="Confirm Password" name="password-confirm"required>
+<br><br>
+ <p>Address</p>
+ <hr>
+ <label id="City">City/Town</label>
+ <input id="city" type="Text" placeholder = "City">
+ <br>
+ <label id="Postcode">PostCode</label>
+ <input id="postcode" type="Text" placeholder = "PostCode">
+ <br>
+ <label id="houseNum">House Number</label>
+ <input id="houseNum"type="Text" placeholder = "House Number">
+ <br>
+ <label id="Country">Country</label>
+ <input id="Country" type="text" placeholder = "Country">
+ <br>
+ <label id="phoneNum">Phone Number</label>
+ <input id="phoneNum" type="number" placeholder = "Phone Number">
+
+ <div id="signup-btn">
+ <button onclick="signUp()" type="submit">Sign Up</button>
+ </div>
+ </form>
+ </div>
+  </div>
+  </div>
+  </div>
+ </div>
+
+ <div id="footer">
+   <div id="footer-links">
+    <li>Movie Network</li>
+    <li><a href = "privacy.html">Privacy</a></li> 
+    <li><a href ="terms,html">Terms of Use</a></li>
+    <li><a href = "about.html">About</a></li>
+	<li><a href = "contact.html">Contact</a></li>
+	<li>2018</li>
+	</div>
+  </div>
+</body>
+</html>

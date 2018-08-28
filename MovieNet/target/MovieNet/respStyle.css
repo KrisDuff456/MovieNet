@@ -1,0 +1,61 @@
+@media screen and  (max-width: 2100px) {
+#nav-account li {padding: 16px 16px;}
+#nav-account ul{margin:3% 0px 0px 0px;}
+#nav input[type=text]{margin-top:1.5%;margin-left:4%;width:47%;}
+#home-main{height:1500px;width:100%;}
+#film-main{height:1300px;}
+#content1{height:280px;}
+#nav-account a{font-size:20px;}
+#nav a{font-size:20px;}
+#nav li{padding: 16px 16px;}
+#logo{margin-top:-0.5%;}
+}
+@media screen and (max-width: 1900px) {
+#logo{font-size:25px;margin-top:-2%;width:12%;}
+#heading{height:90px;}
+#nav input[type=text]{margin-top:3%;margin-left:0%;width:54%;}
+#nav-account li {padding: 18px 16px;}
+#nav-account ul{margin:8% 0px 0px 0px;}
+#sign-up-main{padding-top:10%;}
+#footer-links li{margin-left:3%; margin-top:5%;}
+#footer{background-color:#000000;width:100%;height:130px;}
+}
+@media screen and (max-width: 1440px) {
+#nav-account li {padding: 20px 16px;}
+#nav-account ul{margin:2% 0px 0px 0px;}
+#heading{height:70px;}
+#nav{width:80%;}
+#nav input[type=text]{margin-top:2%;margin-left:4%;width:42%;}
+#nav ul{margin:0% 0px 0px 0px;}
+#nav li{margin-left:0%;padding: 22px 20px;}
+#footer-links li{margin-left:3%; margin-top:2%;}
+#footer{background-color:#000000;width:100%;height:100px;font-size:20px;margin-right:auto;margin-left:auto;}
+#footer-links{width:100%;}
+.login{margin-top:0.5%;height:230px;}
+#sign-up-form{width:80%;height:1150px;}
+}
+@media screen and (max-width: 1366px) {
+#nav-account li {padding: 20px 16px;}
+#nav-account ul{margin:0% 0px 0px 0px;}
+.login{margin-top:5%;height:230px;}
+}
+@media screen and (max-width: 1024px) {
+#logo{font-size:25px;margin-top:-2%;width:12%;}
+#heading{height:90px;}
+#nav{width:80%;}
+#nav ul{margin:0% 0px 0px 0px;}
+#nav li{margin-left:0%;padding: 31px 20px;}
+#nav input[type=text]{margin-top:4%;margin-left:0%;width:38%;}
+#nav-account{width:22%;}
+#nav-account ul{margin-top:-16%;}
+#nav-account li {padding: 32px 20px;}
+#slider{width:100%;padding-top:9.5%;height:600px;box-shadow:0px 9px 10px 0px rgba(0,0,0,0.2);}
+#contact-container{padding-top:14%;}
+.login{margin-top:0.5%;height:230px;}
+#film-container{padding-top:9%;}
+#slider{padding-top:5.5%;height:500px;}
+.imageSlide img{width:100%;	height:450px;}
+#content1{margin-top:2%;}
+#slider-description{margin-top:-12%;}
+
+}

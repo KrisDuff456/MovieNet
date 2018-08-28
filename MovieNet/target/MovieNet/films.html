@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Network - Films</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="respStyle.css">
+<script src="movieAPI.js"></script>
+</head>
+<body s>
+<div id="heading">
+<div id="logo">
+<p>Movie Network</p>
+</div>
+ <div id ="nav">
+ <ul>
+    <li><a  href ="index.html">Home</a></li>
+    <li><a href ="films.html">Films</a></li>
+    <li><a href = "contact.html">Contact</a></li>
+	</ul>
+	  <div class="search-container">
+	    <input type="text" placeholder="Search.....">
+	    <button type="submit"><i class="fa fa-search"></i></button>
+	  </div>
+	</div>
+    <div id="nav-account">
+	<ul>
+	 <li class="active"><a href = "signup.html">Sign-Up</a></li>
+<button onclick="loginvisibility()" id="showLogin">Login</button>
+	</ul>
+  </div>
+ 
+ <div id="loginArea" class="login">
+   <form class ="loginContainer">
+   
+   <label for="emailAd">Email Address</label>
+   <input type="text" placeholder="Your Email Address" name="email" required>
+   
+   <label for="psw">Password</label>
+   <input type="password" placeholder="Enter Your Password" name="psw" required>
+ 
+   <button onclick="" type="submit">Login</button>
+   <script src="login.js"></script>
+   
+   <div class="psw">Forgot <a href="#">Password?</a></span>
+   </div>
+   </form>
+</div>
+</div>
+
+ <div id="film-main">
+ <div id="film-container">
+ <div class="dropdown">
+    <button class="dropbtn">Film Genres<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="#" id="actionFilms">Action</a>
+      <a href="#" id="horrorFilms">Horror</a>
+      <a href="#" id="comedy">Comedy</a>
+    </div>
+  </div> 
+   <div class="dropdown">
+  <button class="dropbtn">Sort <i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="#" id="new">New Releases</a>
+	   <a href="#" id="mostPop">Popular</a>
+      <a href="#" id="price">Price</a>
+	  </div>
+    </div>
+ </div>
+ <div id ="Movie-List" class="grid-container">
+    <div class="Movie-item">Film 1</div>
+    <div class="Movie-item">Film 2</div>
+    <div class="Movie-item">Film 3</div>
+    <div class="Movie-item">Film 4</div>
+	<div class="Movie-item">Film 5</div>
+    <div class="Movie-item">Film 6</div>
+    <div class="Movie-item">Film 7</div>
+    <div class="Movie-item">Film 8</div>
+	<div class="Movie-item">Film 9</div>
+    <div class="Movie-item">Film 10</div>
+    <div class="Movie-item">Film 11</div>
+    <div class="Movie-item">Film 12</div>
+	<div class="Movie-item">Film 13</div>
+    <div class="Movie-item">Film 14</div>
+    <div class="Movie-item">Film 15</div>
+    <div class="Movie-item">Film 16</div>
+	<div class="Movie-item">Film 17</div>
+    <div class="Movie-item">Film 18</div>
+    <div class="Movie-item">Film 19</div>
+    <div class="Movie-item">Film 20</div>
+ </div>
+ </div>
+ <div id="footer">
+   <div id="footer-links">
+    <li>Movie Network</li>
+    <li><a href = "privacy.html">Privacy</a></li> 
+    <li><a href ="terms,html">Terms of Use</a></li>
+    <li><a href = "about.html">About</a></li>
+	<li><a href = "contact.html">Contact</a></li>
+	<li>2018</li>
+	</div>
+  </div>
+</body>
+</html>
